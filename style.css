@@ -99,6 +99,14 @@ h1,h2,h3{
     text-align: center;
 }
 @media (min-width:979px) {
+    
+    .imageHome{
+        
+        height: 50vh;
+        background-repeat: repeat-x;
+        background-size: contain;
+    
+    }
     .sobre-div{
         width: 375px;
         height: 0px;
@@ -110,6 +118,14 @@ h1,h2,h3{
 }
 
 @media (min-width: 829px ) and (max-width:978px){
+    
+    .imageHome{
+        
+        height: 50vh;
+        background-repeat: repeat-x;
+        background-size: contain;
+    
+    }
     .sobre-div{
         border-right: 40vh solid var(--SECOND-COLOR);
     }
@@ -120,6 +136,14 @@ h1,h2,h3{
 }
 
 @media (min-width: 605px ) and (max-width:828px){
+    
+    .imageHome{
+        
+        height: 50vh;
+        background-repeat: repeat-x;
+        background-size: contain;
+    
+    }
     .sobre-div{
         border-right: 30vh solid var(--SECOND-COLOR);
     }
@@ -128,6 +152,14 @@ h1,h2,h3{
     }
 }
 @media (min-width: 400px ) and (max-width:604px){
+    
+    .imageHome{
+        
+        height: 50vh;
+        background-repeat: repeat-x;
+        background-size: contain;
+    
+    }
     .sobre-div{
         border-right: 26vh solid var(--SECOND-COLOR);
     }
