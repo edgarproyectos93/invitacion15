@@ -3,6 +3,8 @@
     --SECOND-COLOR:#008000;
     --HEADER:#fff;
     --TEXT-HEADER:#fff;
+
+    --SECOND-SECTION:#FFF;
 }
 
 body{
@@ -83,7 +85,18 @@ h1,h2,h3{
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+}
 
+.mensaje-saludo{
+    background-color: var(--SECOND-SECTION);
+    height: 12vh;
+    font-family: "Tangerine", cursive;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 @media (min-width: 376px) {
     .sobre-div{
@@ -100,5 +113,8 @@ h1,h2,h3{
         background-repeat: repeat-x;
         background-size: contain;
     
+    }
+    .mensaje-saludo{
+        font-size: 40px;
     }
 }
