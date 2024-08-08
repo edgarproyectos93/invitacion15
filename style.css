@@ -98,7 +98,45 @@ h1,h2,h3{
     justify-content: center;
     text-align: center;
 }
-@media (min-width: 376px) {
+@media (min-width:979px) {
+    .sobre-div{
+        width: 375px;
+        height: 0px;
+        border-right: 35vh solid var(--SECOND-COLOR);
+    }
+    .sello{
+        height: 150px;
+    }
+}
+
+@media (min-width: 829px ) and (max-width:978px){
+    .sobre-div{
+        border-right: 40vh solid var(--SECOND-COLOR);
+    }
+    
+    .sello{
+        height: 150px;
+    }
+}
+
+@media (min-width: 605px ) and (max-width:828px){
+    .sobre-div{
+        border-right: 30vh solid var(--SECOND-COLOR);
+    }
+    .sello{
+        height: 150px;
+    }
+}
+@media (min-width: 400px ) and (max-width:604px){
+    .sobre-div{
+        border-right: 26vh solid var(--SECOND-COLOR);
+    }
+    .sello{
+        height: 150px;
+    }
+}
+
+@media (min-width: 376px ) and (max-width:400px){
     .sobre-div{
         width: 375px;
         height: 0px;
