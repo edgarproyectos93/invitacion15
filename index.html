@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+
 
 </head>
 <body>
@@ -36,30 +39,200 @@
             <img src="./img/Division1.png" alt="División">
             <div>
                 <p>Heidy Johana Tinjaca Forero</p>
-                <p>Jhon Tocanchon</p>
+                <p>Jhon Alexander Tocanchon Gómez</p>
             </div>
         </div>
+        
         <div class="itinerario">
             <p>Itinerario</p>
-            <div class="itinerario-misa">
-                <p>Misa</p>
-                <p>6pm</p>
-            </div>
-            <div class="itinerario-recepcion">
-                <p>Recepción</p>
-                <p>8pm</p>
-            </div>
-            <div class="itinerario-cena">
-                <p>Cena</p>
-                <p>9pm</p>
-            </div>
-            <div class="itinerario-fiesta">
-                <p>Fiesta</p>
-                <p>10pm</p>
+
+            <div id="theCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicadores -->
+                <ol class="carousel-indicators">
+                  <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#theCarousel" data-slide-to="1"></li>
+                  <li data-target="#theCarousel" data-slide-to="2"></li>
+                  <li data-target="#theCarousel" data-slide-to="3"></li>
+                  
+                </ol>
+            
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="./img/iglesia.jpg" alt="Ilustracion" > 
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Misa</h3>
+                            <p>6:00 pm</p>
+                        </div>
+                    </div>
+                    <!--<div class="itinerario-misa">
+                        <p>Misa</p>
+                        <p>6pm</p>
+                    </div>-->
+                    <div class="item">
+                        <img src="./img/recepcion.jpg" alt="fotografia" width="600" height="424"> 
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3> Recepción</h3>
+                            <p>7pm</p>
+                        </div>
+                    </div>
+                    <!--<div class="itinerario-recepcion">
+                        <p>Recepción</p>
+                        <p>8pm</p>
+                    </div>-->
+                    <div class="item">
+                        <img src="./img/cena.jpg" alt="pintura" width="600" height="424">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Cena</h3>
+                            <p>10:00 pm</p>
+                        </div>
+                    </div>
+                    <!--<div class="itinerario-cena">
+                        <p>Cena</p>
+                        <p>9pm</p>
+                    </div>-->
+                    <div class="item">
+                        <img src="./img/fiesta.jpg" alt="diseno" width="600" height="424">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Fiesta</h3>
+                            <p>12:00 pm</p>
+                        </div>
+                    </div>
+                    <!--<div class="itinerario-fiesta">
+                        <p>Fiesta</p>
+                        <p>10pm</p>
+                    </div>-->
+                    <a class="left carousel-control" href="#theCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">anterior</span>
+                    </a>
+                    <a class="right carousel-control" href="#theCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">siguiente</span>
+                    </a>
+                </div>
             </div>
         </div>
+        <div class="ubicacion">
+            <p>Ubicaciones</p>
+            <img src="./img/Division1.png" alt="División">
+            <div class="ubicaciones">
+                <div class="ubicaciones-descripcion">
+                    <h4>Iglesia</h4>
+                    <p>2:00pm</p>
+                    <img src="./img/iglesia.jpg" alt="">
+                    <h4>Iglesia San Pedro y San Pablo</h4>
+                    <p>Barrio la estansuela</p>
+                    <a type="button">Ver ubicación</a>
+                </div>
+                <div class="ubicaciones-descripcion">
+                    <h4>Recepción</h4>
+                    <p>4:00pm</p>
+                    <img src="./img/recepcion.jpg" alt="">
+                    <h4>Finca los Pinos</h4>
+                    <p>km 1 via Bogota</p>
+                    <a type="button">Ver ubicación</a>
+                </div>
+            </div>
+        </div>
+        <div class="historia">
+            <p>Dios nos ha bendecido con nuestra hermosa hija</p>
+            <div id="theCarousel2" class="carousel slide" data-ride="carousel2">
+                <!-- Indicadores -->
+                <ol class="carousel-indicators">
+                  <li data-target="#theCarousel2" data-slide-to="0" class="active"></li>
+                  <li data-target="#theCarousel2" data-slide-to="1"></li>
+                  <li data-target="#theCarousel2" data-slide-to="2"></li>
+                  <li data-target="#theCarousel2" data-slide-to="3"></li>
+                  <li data-target="#theCarousel2" data-slide-to="4"></li>
+                  <li data-target="#theCarousel2" data-slide-to="5"></li>
+                  <li data-target="#theCarousel2" data-slide-to="6"></li>
+                  
+                </ol>
+            
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="./img/Maria/Maria1.jpg" alt="Ilustracion" > 
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Misa</h3>
+                            <p>6:00 pm</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./img/Maria/MariaMama.jpg" alt="fotografia" width="600" height="424"> 
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3> Recepción</h3>
+                            <p>7pm</p>
+                        </div>
+                    </div>
+                    
+                    <div class="item">
+                        <img src="./img/Maria/MariaPapa.jpg" alt="pintura" width="600" height="424">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Cena</h3>
+                            <p>10:00 pm</p>
+                        </div>
+                    </div>
+                    
+                    <div class="item">
+                        <img src="./img/Maria/Mariahermana.jpg" alt="diseno" width="600" height="424">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Fiesta</h3>
+                            <p>12:00 pm</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./img/Maria/MariaMama2.jpg" alt="diseno" width="600" height="424">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Fiesta</h3>
+                            <p>12:00 pm</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./img/Maria/Maria2.jpg" alt="diseno" width="600" height="424">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Fiesta</h3>
+                            <p>12:00 pm</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./img/Maria/Maria3.jpg" alt="diseno" width="600" height="424">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Fiesta</h3>
+                            <p>12:00 pm</p>
+                        </div>
+                    </div>
+                    
+                    <a class="left carousel-control" href="#theCarousel2" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">anterior</span>
+                    </a>
+                    <a class="right carousel-control" href="#theCarousel2" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">siguiente</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="codigo-vestimenta">
+            <p>Código de Vestimenta</p>
+            <img src="./img/Division1.png" alt="División">
+            <div>
+                <img src="./img/vestimenta-Hombre.png" alt="Vestimenta hombre">
+                <img src="./img/vestimenta-Mujer.png" alt="Vestimenta mujer">
+            </div>
+            <p>Normas</p>
+            <div>
+                <p>Los niños se quedan en casa.</p>
+                <img src="./img/prohibido-ninos.png" alt="">
+            </div>
+            
+        </div>
     </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="./functions.js"></script>
     
 </body>

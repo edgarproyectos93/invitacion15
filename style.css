@@ -17,7 +17,7 @@ body{
     margin:0px;
 }
 h1,h2,h3{
-    margin: 0px;
+    margin: 0px !important;
 }
 
 .sobre{
@@ -145,7 +145,7 @@ h1,h2,h3{
 }
 
 .itinerario{
-    color: var(--IMPAR-TEXT);
+    color: var(--PAR);
     background-color: var(--PAR-TEXT);
     font-family: "Tangerine", cursive;
     font-size: 18px;
@@ -191,6 +191,73 @@ h1,h2,h3{
     background-image: url("./img/fiesta.jpg");
 }
 
+.ubicacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--PAR-TEXT);
+    background-color: var(--PAR);
+    font-family: "Tangerine", cursive;
+    font-size: 18px;
+    img{
+        width: 120px;
+        margin-bottom: 10px;
+
+    }
+    p{
+        margin-bottom: 0px;
+    }
+    
+}
+.ubicaciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.ubicaciones-descripcion{
+    width: 50%;
+    text-align: center;
+    img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    p,h4,a{
+        margin: 0px;
+    }
+    a{
+        text-decoration: none;
+    }
+}
+.historia{
+    color: var(--IMPAR-TEXT);
+    background-color: var(--IMPAR);
+}
+.codigo-vestimenta{
+    color: var(--PAR-TEXT);
+    background-color: var(--PAR);
+    font-family: "Tangerine", cursive;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p{
+        margin: 0px;
+    }
+    img{
+        width: 120px;
+        
+        margin-bottom: 10px;
+    }
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 60%;
+      margin: auto;
+  }
 /** MEDIA  **/
 @media (min-width:979px) {
     
