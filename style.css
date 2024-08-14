@@ -11,6 +11,9 @@
     
     --PAR-TEXT:#000;
     --PAR:#fff;
+
+    --TEXT-SIZE: 20px;
+    --TEXT-STYLE: "Tangerine", cursive;
 }
 
 body{
@@ -68,7 +71,7 @@ h1,h2,h3{
     flex-direction: column;
     align-items: center;
     justify-content: center;    
-    font-family: "Tangerine", cursive;
+    font-family: var(--TEXT-STYLE);
     font-weight: 500;
     font-style: normal;
     
@@ -76,7 +79,7 @@ h1,h2,h3{
 }
 .header-text{
     margin: 0px;
-    font-family: "Tangerine", cursive;
+    font-family: var(--TEXT-STYLE);
     font-weight: 800;
     font-size: 30px;
 }
@@ -95,31 +98,36 @@ h1,h2,h3{
 
 .mensaje-saludo{
     background-color: var(--IMPAR-TEXT);
-    font-family: "Tangerine", cursive;
-    font-size: 20px;
+    font-family: var(--TEXT-STYLE);
+    font-size: var(--TEXT-SIZE);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+    p{
+        margin: 15px 2px;
+    }
 }
 .mensaje-saludo-dos{
     color: var(--IMPAR-TEXT);
     background-color: var(--PAR-TEXT);
-    font-family: "Tangerine", cursive;
-    font-size: 18px;
+    font-family: var(--TEXT-STYLE);
+    font-size: var(--TEXT-SIZE);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+    p{
+        margin: 15px 2px;
+    }
 }
 .mensaje-saludo-tres{
     color: var(--PAR-TEXT);
     background-color: var(--PAR);
-    
-    font-family: "Tangerine", cursive;
-    font-size: 18px;
+    font-family: var(--TEXT-STYLE);
+    font-size: var(--TEXT-SIZE);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -147,8 +155,8 @@ h1,h2,h3{
 .itinerario{
     color: var(--PAR);
     background-color: var(--PAR-TEXT);
-    font-family: "Tangerine", cursive;
-    font-size: 18px;
+    font-family: var(--TEXT-STYLE);
+    font-size: var(--TEXT-SIZE);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -167,7 +175,7 @@ h1,h2,h3{
         margin-top: 2px;
         p{
             color: var(--IMPAR-TEXT);
-            font-size: 30px;
+            font-size: var(--TEXT-SIZE);
             margin: 0px;
             background-color: #00000094;
             padding: 5px;
@@ -197,8 +205,8 @@ h1,h2,h3{
     align-items: center;
     color: var(--PAR-TEXT);
     background-color: var(--PAR);
-    font-family: "Tangerine", cursive;
-    font-size: 18px;
+    font-family: var(--TEXT-STYLE);
+    font-size: var(--TEXT-SIZE);
     img{
         width: 120px;
         margin-bottom: 10px;
@@ -234,12 +242,17 @@ h1,h2,h3{
 .historia{
     color: var(--IMPAR-TEXT);
     background-color: var(--IMPAR);
+    font-family: var(--TEXT-STYLE);
+    font-size: var(--TEXT-SIZE);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .codigo-vestimenta{
     color: var(--PAR-TEXT);
     background-color: var(--PAR);
-    font-family: "Tangerine", cursive;
-    font-size: 18px;
+    font-family: var(--TEXT-STYLE);
+    font-size: var(--TEXT-SIZE);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -251,12 +264,21 @@ h1,h2,h3{
         
         margin-bottom: 10px;
     }
+    a{
+        text-decoration: none;
+        color:  var(--PAR-TEXT);
+        font-size: var(--TEXT-SIZE);
+    }
 }
 
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
       width: 60%;
       margin: auto;
+  }
+
+  .sobre-img{
+    width: 80px !important;
   }
 /** MEDIA  **/
 @media (min-width:979px) {
