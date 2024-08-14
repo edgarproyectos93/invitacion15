@@ -12,7 +12,7 @@
     --PAR-TEXT:#000;
     --PAR:#fff;
 
-    --TEXT-SIZE: 23px;
+    --TEXT-SIZE: 25px;
     --TEXT-STYLE: "Tangerine", cursive;
 }
 
@@ -134,6 +134,7 @@ h1,h2,h3{
     p {
         margin-top: 12px;
         margin-bottom: 0px;
+        text-align: center;
     
     }
     img{
